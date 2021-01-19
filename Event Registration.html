@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Event Registration Form</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/64d58efce2.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+	
+    <div class="container">
+      <span class="big-circle"></span>
+      <img src="img/shape.png" class="square" alt="" />
+      <div class="form">
+        <div class="contact-info">
+          <h3 class="title">Event Registration Form</h3>
+          <p class="text">
+           Please enter your CORRECT details and note that all flied must be completed. Make sure to enter your correct details before submitting.
+          </p>
+		  <img src="img/pedro.jpg" alt="pedro" width="300" height="210">
+        </div>
+
+        <div class="contact-form">
+          <span class="circle one"></span>
+          <span class="circle two"></span>
+
+          <form action="mailto: pauliahbaloyi95@gmail.com"  method="post" enctype="text/plain" autocomplete="off">
+            <h3 class="title">Register below</h3>
+            <div class="input-container">
+              <input type="text" name="name" class="input" />
+              <label for="">Full names</label>
+              <span>Full names</span>
+            </div>
+			  <div class="input-container">
+              <input type="text" name="surname" class="input" />
+              <label for="">Surname</label>
+              <span>Surname</span>
+            </div>
+            <div class="input-container">
+              <input type="email" name="email" class="input" />
+              <label for="">Email</label>
+              <span>Email</span>
+            </div>
+            <div class="input-container">
+              <input type="tel" name="phone" class="input" />
+              <label for="">Phone</label>
+              <span>Phone</span>
+            </div>
+            <div class="input-container ">
+              <input type="text" name="gender" class="input" />
+              <label for="">Gender</label>
+              <span>Gender</span>
+            </div>
+            <input type="submit" value="Submit" class="btn" />
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
